@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # %%
-df = pd.read_excel('../data/ST60B_2024.xlsx')
+df = pd.read_excel('../data/raw/ST60B_2024.xlsx')
 df = df.iloc[4:]
 print(df.head())
 
