@@ -1,0 +1,7 @@
+# Ignore
+db/*.db
+data/raw/
+
+# Keep structure
+!data/.gitkeep
+!data/processed/.gitkeep
